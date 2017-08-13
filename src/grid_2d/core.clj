@@ -30,6 +30,4 @@
 (defn grid-reduce
   "Reduce a function over all entries in the grid."
   [f val g]
-  (reduce (fn [v gr] (reduce f v gr)) val g)
-  [f g]
-  (reduce (fn [v gr] (reduce f gr)) g))
+  (reduce (fn [v gr] (reduce f v gr)) val g))
