@@ -1,10 +1,6 @@
 # grid-2d
 
-A Clojure library designed to ... well, that part is up to you.
-
-## Usage
-
-FIXME
+A simple 2d grid library that operates on nested clojure vectors. Designed to be easy to use and to interoperate easily with the standard library. As a result may be slow compared to libraries that use native 2d arrays or other specialist representations.
 
 ## License
 
