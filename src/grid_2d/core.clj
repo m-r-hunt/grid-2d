@@ -22,6 +22,7 @@
   [f g x1 y1 x2 y2]
   (reduce #(update-in %1 %2 f) g (for [x (range x1 x2)
                                        y (range y1 y2)] [x y])))
+
 (defn grid-map-indexed
   "Like map indexed over a grid. f should take 3 args (f x y val)"
   [f g]
